@@ -39,3 +39,15 @@ fn main() {
 
     println!("Final status: {}", retired.status);
 }
+
+---
+
+## Links
+
+- 📜 [EIP Draft](https://github.com/agronetlabs/ethereum-EIPs/blob/eip-agrocrypto-quantum/EIPS/eip-agrocrypto-quantum.md)  
+- 📦 [Crates.io](https://crates.io/crates/agrocrypto-quantum-core)  
+- 🔗 [Docs.rs](https://docs.rs/agrocrypto-quantum-core)  
+
+---
+
+© 2023–2025 AgroCrypto Labs LLC — compliance-grade framework.
