@@ -1,0 +1,30 @@
+[package]
+name = "agrocrypto-quantum-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Leandro Lemos <leandro@agronet.io>"]
+description = "Reference implementation of the AgroCrypto Quantum Governance — ESG Tokenization Protocol (EIP Draft). Compliance-grade, AI-native, post-quantum secure."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/agronetlabs/agrocrypto-quantum-core"
+documentation = "https://docs.rs/agrocrypto-quantum-core"
+readme = "README.md"
+keywords = ["blockchain", "esg", "compliance", "ai", "post-quantum"]
+categories = ["cryptography", "finance", "wasm", "blockchain"]
+homepage = "https://agrocrypto.io"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha3 = "0.10"                # para SHA3-512
+hex = "0.4"
+time = "0.3"
+uuid = { version = "1.7", features = ["v4"] }
+
+[badges]
+github = { repository = "agronetlabs/agrocrypto-quantum-core", branch = "main" }
+crates-io = { repository = "https://crates.io/crates/agrocrypto-quantum-core" }
+docs-rs = { repository = "https://docs.rs/agrocrypto-quantum-core" }
+
+[lib]
+name = "agrocrypto_core"
+path = "src/lib.rs"
