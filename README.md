@@ -26,7 +26,8 @@ This crate provides Rust primitives for:
 
 ## Example
 
-```rust
+```
+rust
 use agrocrypto_quantum_core::{ESGMetadata, mint_esg_token, audit_esg_token, retire_esg_token};
 
 fn main() {
@@ -39,7 +40,7 @@ fn main() {
 
     println!("Final status: {}", retired.status);
 }
-
+```
 ---
 
 ## Links
@@ -51,3 +52,5 @@ fn main() {
 ---
 
 © 2023–2025 AgroCrypto Labs LLC — compliance-grade framework.
+
+---
