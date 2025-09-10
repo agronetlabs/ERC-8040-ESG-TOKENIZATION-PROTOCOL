@@ -1,12 +1,8 @@
-use serde::{Deserialize, Serialize};
+use serde::{Serialize, Deserialize};
 use sha3::{Digest, Sha3_512};
+use uuid::Uuid;
 
-#[derive(Debug, Serialize, Deserialize, Clone)]
-pub struct Attestation {
-    pub atf_digest: String,
-    pub signer: String,
-}
-
+/// Estrutura de metadados ESG conforme o EIP AgroCrypto Quantum Governance
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct ESGMetadata {
     pub standard: String,
@@ -21,45 +17,63 @@ pub struct ESGMetadata {
     pub evidence: String,
 }
 
-impl ESGMetadata {
-    pub fn new(category: &str, geo: &str, carbon_value: f64, cycle: &str) -> Self {
-        let raw = format!("{}:{}:{}:{}", category, geo, carbon_value, cycle);
-        let mut hasher = Sha3_512::new();
-        hasher.update(raw.as_bytes());
-        let digest = format!("{:x}", hasher.finalize());
+/// Estrutura de atestação (assinada pelo ATF-AI)
+#[derive(Debug, Serialize, Deserialize, Clone)]
+pub struct Attestation {
+    pub atf_digest: String,
+    pub signer: String,
+}
 
-        ESGMetadata {
-            standard: "ERC-ESG/1.0".to_string(),
-            category: category.to_string(),
-            geo: geo.to_string(),
-            carbon_value,
-            cycle: cycle.to_string(),
-            digest,
-            physical_id: "seal:UNDEFINED".to_string(),
-            attestation: Attestation {
-                atf_digest: digest.clone(),
-                signer: "did:atf:ai:UNDEFINED".to_string(),
-            },
-            status: "issued".to_string(),
-            evidence: "cid:UNDEFINED".to_string(),
-        }
+/// Função utilitária para gerar digest SHA3-512 a partir de uma string
+pub fn generate_digest(input: &str) -> String {
+    let mut hasher = Sha3_512::new();
+    hasher.update(input.as_bytes());
+    format!("{:x}", hasher.finalize())
+}
+
+/// Cria um novo ESGMetadata com base nos parâmetros recebidos
+pub fn create_metadata(category: &str, geo: &str, carbon_value: f64, cycle: &str) -> ESGMetadata {
+    // gera um digest único
+    let digest = generate_digest(&format!(
+        "{}:{}:{}:{}",
+        category, geo, carbon_value, cycle
+    ));
+
+    // gera um UUID pro physical_id
+    let physical_id = format!("seal:{}", Uuid::new_v4());
+
+    // clona o digest pra atf_digest antes de mover
+    let attestation = Attestation {
+        atf_digest: digest.clone(),
+        signer: "did:atf:ai:validator".to_string(),
+    };
+
+    ESGMetadata {
+        standard: "ERC-ESG/1.0".to_string(),
+        category: category.to_string(),
+        geo: geo.to_string(),
+        carbon_value,
+        cycle: cycle.to_string(),
+        digest,
+        physical_id,
+        attestation,
+        status: "issued".to_string(),
+        evidence: "cid:QmExample".to_string(),
     }
 }
 
-/// Simula `mintESGToken`
-pub fn mint_esg_token(meta: ESGMetadata) -> ESGMetadata {
-    ESGMetadata { status: "issued".to_string(), ..meta }
-}
+#[cfg(test)]
+mod tests {
+    use super::*;
 
-/// Simula `auditESGToken`
-pub fn audit_esg_token(mut meta: ESGMetadata, new_digest: &str) -> ESGMetadata {
-    meta.attestation.atf_digest = new_digest.to_string();
-    meta.status = "audited".to_string();
-    meta
-}
-
-/// Simula `retireESGToken`
-pub fn retire_esg_token(mut meta: ESGMetadata, reason: &str) -> ESGMetadata {
-    meta.status = format!("retired:{}", reason);
-    meta
+    #[test]
+    fn test_metadata_generation() {
+        let meta = create_metadata("carbon", "BR-RS", 12.5, "2025-Q3");
+        assert_eq!(meta.standard, "ERC-ESG/1.0");
+        assert_eq!(meta.category, "carbon");
+        assert_eq!(meta.geo, "BR-RS");
+        assert_eq!(meta.status, "issued");
+        assert!(!meta.digest.is_empty());
+        assert!(!meta.attestation.atf_digest.is_empty());
+    }
 }
