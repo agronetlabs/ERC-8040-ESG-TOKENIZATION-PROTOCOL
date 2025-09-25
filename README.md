@@ -54,6 +54,6 @@ Unlike legacy “enterprise” stacks, this project embodies the very best in mo
 ---
 
 > **This repository is presented as a technical reference and proof of capability for critical, institutional-grade systems.  
-> For consulting, custom implementation, audit, or training, contact AgroCrypto Labs.**
+> For consulting, custom implementation, audit, or training, contact AgroCrypto Labs LLC.**
 
 © 2023–2025 AgroCrypto Labs LLC — Compliance-grade framework.
