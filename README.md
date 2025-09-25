@@ -26,7 +26,6 @@ Unlike legacy “enterprise” stacks, this project embodies the very best in mo
 
 ## 🌐 Quick Links
 
-- 📜 [EIP Draft](https://github.com/agronetlabs/ethereum-EIPs/pull/10316)
 - 📦 [Crates.io](https://crates.io/crates/agrocrypto-quantum-core)
 - 📚 [Docs.rs](https://docs.rs/agrocrypto-quantum-core)
 - 🛡️ [Security Audit](./security_audit.md)
