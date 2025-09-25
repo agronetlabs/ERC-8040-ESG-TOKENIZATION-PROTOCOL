@@ -24,12 +24,12 @@ Unlike legacy “enterprise” stacks, this project embodies the very best in mo
 
 ## 🔒 Security Audit
 
-- Latest audit: [SECURITY_AUDIT.md](./SECURITY_AUDIT.md)  
+- Latest audit: [security_audit.md](./security_audit.md)  
 - Version: **v1.0.0** (`commit abc123`)  
 - Status: ✅ No critical risks found  
 - Integrity Hash: `201672f1605f30a361254cacbb073d8de7b806ba392ef82ca4723e17f4d39dd6`
 
-[![Audit Status](https://img.shields.io/badge/security-audited-brightgreen)](./SECURITY_AUDIT.md)
+[![Audit Status](https://img.shields.io/badge/security-audited-brightgreen)](./security_audit.md)
 
 ---
 
@@ -38,7 +38,7 @@ Unlike legacy “enterprise” stacks, this project embodies the very best in mo
 - 📜 [EIP Draft](https://github.com/agronetlabs/ethereum-EIPs/pull/10316)
 - 📦 [Crates.io](https://crates.io/crates/agrocrypto-quantum-core)
 - 📚 [Docs.rs](https://docs.rs/agrocrypto-quantum-core)
-- 🛡️ [Security Audit](./SECURITY_AUDIT.md)
+- 🛡️ [Security Audit](./security_audit.md)
 
 ---
 
