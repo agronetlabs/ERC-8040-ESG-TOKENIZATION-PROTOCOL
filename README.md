@@ -8,6 +8,7 @@
 ![Deployed](https://img.shields.io/badge/deployed-AWS-blue)
 ![Deployed](https://img.shields.io/badge/deployed-Cloudflare-orange)
 ![Deployed](https://img.shields.io/badge/deployed-OpenAI-black)
+
 ---
 
 # AgroCrypto Quantum Core
