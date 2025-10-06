@@ -48,6 +48,11 @@ Unlike legacy “enterprise” stacks, this project embodies the very best in mo
 
 ---
 
+**Discussão oficial do EIP:**  
+[Ethereum Magicians — AgroCrypto Quantum Governance](https://ethereum-magicians.org/t/all-core-devs-acd/24198/3?u=agronetlabs)
+
+---
+
 ## 🏆 Why This Project Stands Out
 
 - **100% pure, maintainable, and auditable Rust codebase**
