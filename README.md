@@ -12,27 +12,34 @@
 
 ---
 
-# AgroCrypto Quantum Core
+# 🌐 AgroCrypto Quantum Core
 
-> **Reference Implementation for EIP: AgroCrypto Quantum Governance — ESG Tokenization Protocol**
+> **Reference Implementation for EIP-8040: AgroCrypto Quantum Governance — ESG Tokenization Protocol**
 
-> **_ATTENTION_**: The EIPs repository has recently [undergone](https://github.com/ethereum/EIPs/pull/7206) a separation of ERCs and EIPs. ERCs are now accessible at [https://github.com/ethereum/ercs](https://github.com/ethereum/ercs). All new ERCs and updates to existing ones must be directed at this new repository. The editors apologize for this inconvenience.
+> ⚠️ **Notice**: The Ethereum EIPs repository has recently [split ERCs and EIPs](https://github.com/ethereum/EIPs/pull/7206). ERCs are now maintained at [github.com/ethereum/ercs](https://github.com/ethereum/ercs). All new ERCs and updates must be submitted there.
 
 ---
 
-## 🚀 Excellence in Blockchain, Compliance & Security
+## 🚀 Institutional-Grade Blockchain, Compliance & Security
 
-**AgroCrypto Quantum Core** is a reference implementation of the **AgroCrypto Quantum Governance — ESG Tokenization Protocol (EIP Draft)**.  
-Built 100% in pure, clean Rust, it delivers a **compliance-grade, AI-native, and post-quantum secure** framework for institutional ESG asset tokenization.
+**AgroCrypto Quantum Core** is the official reference implementation of the **AgroCrypto Quantum Governance Protocol (EIP-8040 Draft)** — a compliance-native, AI-governed, and post-quantum secure framework for ESG asset tokenization.
 
-Unlike legacy “enterprise” stacks, this project embodies the very best in modern engineering: deterministic, audit-ready, and aligned with international standards for security and governance.
+Built entirely in **pure Rust**, this project delivers:
+
+- ✅ Deterministic issuance flows  
+- ✅ Machine-verifiable metadata  
+- ✅ ATF-AI audit integration  
+- ✅ Quantum-ready key infrastructure  
+- ✅ Institutional-grade security and lifecycle integrity
+
+This is not a legacy enterprise stack — it’s a modern, auditable, and standards-aligned infrastructure for real-world ESG deployment.
 
 ---
 
 ## 🔒 Security Audit
 
-- Latest audit: [security_audit.md](./security_audit.md)  
-- Version: **v1.0.0** (`commit abc123`)  
+- Latest audit: [`security_audit.md`](./security_audit.md)  
+- Version: `v1.0.0` (`commit abc123`)  
 - Status: ✅ No critical risks found  
 - Integrity Hash: `201672f1605f30a361254cacbb073d8de7b806ba392ef82ca4723e17f4d39dd6`
 
@@ -40,31 +47,87 @@ Unlike legacy “enterprise” stacks, this project embodies the very best in mo
 
 ---
 
-## 🌐 Quick Links
+## 📦 Quick Links
 
-- 📦 [Crates.io](https://crates.io/crates/agrocrypto-quantum-core)
-- 📚 [Docs.rs](https://docs.rs/agrocrypto-quantum-core)
-- 🛡️ [Security Audit](./security_audit.md)
-
----
-
-**Discussão oficial do EIP:**  
-[Ethereum Magicians — AgroCrypto Quantum Governance](https://ethereum-magicians.org/t/all-core-devs-acd/24198/3?u=agronetlabs)
+- 🧱 [Crates.io](https://crates.io/crates/agrocrypto-quantum-core)  
+- 📚 [Docs.rs](https://docs.rs/agrocrypto-quantum-core)  
+- 🛡️ [Security Audit](./security_audit.md)  
+- 🧠 [EIP Discussion — Ethereum Magicians](https://ethereum-magicians.org/t/all-core-devs-acd/24198/3?u=agronetlabs)
 
 ---
 
 ## 🏆 Why This Project Stands Out
 
-- **100% pure, maintainable, and auditable Rust codebase**
-- **Badges for compliance, audit, open licensing, CI/CD, provenance**
-- **Detailed documentation** (README, CHANGELOG, SECURITY_AUDIT, integration)
-- **Ready for independent audit and institutional adoption**
-- **Aligned with open standards (EIP Draft, ESG, post-quantum security)**
-- **A real-world showcase of advanced Rust, Web3, and security engineering**
+- ✅ 100% pure, maintainable, and auditable Rust codebase  
+- ✅ Badges for compliance, audit, CI/CD, provenance  
+- ✅ Detailed documentation (README, CHANGELOG, SECURITY_AUDIT)  
+- ✅ Ready for independent audit and institutional adoption  
+- ✅ Aligned with open standards (EIP-8040, ESG, post-quantum security)  
+- ✅ Real-world showcase of advanced Rust, Web3, and security engineering
 
 ---
 
-> **This repository is presented as a technical reference and proof of capability for critical, institutional-grade systems.  
-> For consulting, custom implementation, audit, or training, contact AgroCrypto Labs LLC.**
+## 📄 Legal & Licensing Notice
 
-© 2023–2025 AgroCrypto Labs LLC — Compliance-grade framework.
+© 2023–2025 AgroCrypto Labs LLC — All Rights Reserved.  
+EIP-8040 (ATF-AI: AgroCrypto Trust Framework) is a public technical standard registered within the Ethereum ecosystem for reference.
+
+While the EIP document is public, the institutional implementation, certification, audit layer, and brand identity **“ATF-AI Verified”** are proprietary intellectual property of AgroCrypto Labs LLC (California, USA).
+
+- Use of the EIP-8040 specification for educational or experimental purposes is free.  
+- Any commercial deployment, certification service, API usage, or public representation under the terms “ATF-AI Verified”, “EIP-8040 Oracle”, or related derivatives requires **explicit written authorization** from AgroCrypto Labs LLC.  
+- Unauthorized commercial use constitutes intellectual property infringement under U.S. and international law.  
+- For partnership or licensing inquiries, contact: `legal@agrocryptolabs.org`
+
+---
+
+## 🤝 Contributing
+
+This repository is maintained by AgroCrypto Labs LLC.  
+We welcome technical feedback, audit suggestions, and institutional collaboration.
+
+To contribute:
+
+1. Fork the repository  
+2. Submit a pull request with clear documentation  
+3. Include test coverage and changelog notes  
+4. All contributions are subject to review under ATF-AI governance
+
+---
+
+## 📬 Contact
+
+- 🌐 [eip.agrocryptolabs.org](https://eip.agrocryptolabs.org)  
+- 🔗 [linktr.ee/agrocrypto](https://linktr.ee/agrocrypto)  
+- 📧 `agrocryptolabs@proton.me`
+
+---
+
+> **AgroCrypto Quantum Core** is not just code.  
+> It’s infrastructure. It’s compliance.  
+> It’s the future of ESG tokenization.
+
+---
+
+📄 Usage & Licensing
+© 2023–2025 AgroCrypto Labs LLC — All Rights Reserved.
+EIP-8040 (ATF-AI: AgroCrypto Trust Framework) is an open technical standard registered within the Ethereum ecosystem for public reference.
+While the EIP document is public, the institutional implementation, certification layer, audit infrastructure, and brand identity “ATF-AI Verified” are proprietary intellectual property of AgroCrypto Labs LLC (California, USA).
+✅ Free Usage
+Use of the EIP-8040 specification for educational or experimental purposes is permitted without restriction.
+🚫 Commercial Restrictions
+Any commercial deployment, certification service, API usage, or public representation under the terms:
+- “ATF-AI Verified”
+- “EIP-8040 Oracle”
+- or related derivatives
+requires explicit written authorization from AgroCrypto Labs LLC.
+Unauthorized commercial use constitutes intellectual property infringement under U.S. and international law.
+AgroCrypto Labs LLC reserves all rights to enforce, audit, certify, and license the official implementation and its derivatives.
+📬 Licensing & Partnerships
+For partnership or licensing inquiries, contact:
+📧 contact@agronet.io
+
+---
+© 2023–2025 AgroCrypto Labs LLC — All Rights Reserved.
+
+---
