@@ -12,7 +12,7 @@
 
 ---
 
-# 🌐 AgroCrypto Quantum Core
+# 🌐 eip-8040-ESG-Tokenization-Protocol
 
 > **Reference Implementation for EIP-8040: AgroCrypto Quantum Governance — ESG Tokenization Protocol**
 
