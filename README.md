@@ -12,7 +12,7 @@
 
 ---
 
-# 🌐 eip-8040-ESG-Tokenization-Protocol
+# 🌐 ERC-8040-ESG-Tokenization-Protocol
 
 > **Reference Implementation for EIP-8040: AgroCrypto Quantum Governance — ESG Tokenization Protocol**
 
@@ -52,7 +52,7 @@ This is not a legacy enterprise stack — it's a modern, auditable, and standard
 - 🧱 [Crates.io](https://crates.io/crates/agrocrypto-quantum-core)  
 - 📚 [Docs.rs](https://docs.rs/agrocrypto-quantum-core)  
 - 🛡️ [Security Audit](./security_audit.md)  
-- 🧠 [EIP Discussion — Ethereum Magicians](https://ethereum-magicians.org/t/all-core-devs-acd/24198/3?u=agronetlabs)
+- 🧠 [ERC Discussion — Ethereum Magicians](discussions-to: https://ethereum-magicians.org/t/erc-8040-esg-tokenization-protocol/25846)
 
 ---
 
