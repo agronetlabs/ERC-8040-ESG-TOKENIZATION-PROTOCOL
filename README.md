@@ -70,7 +70,7 @@ This is not a legacy enterprise stack — it's a modern, auditable, and standard
 ## 📄 Legal & Licensing Notice
 
 © 2023–2025 AgroCrypto Labs LLC — All Rights Reserved.  
-EIP-8040 (ATF-AI: AgroCrypto Trust Framework) is a public technical standard registered within the Ethereum ecosystem for reference.
+ERC-8040 (ATF-AI: AgroCrypto Trust Framework) is a public technical standard registered within the Ethereum ecosystem for reference.
 
 While the EIP document is public, the institutional implementation, certification, audit layer, and brand identity **"ATF-AI Verified"** are proprietary intellectual property of AgroCrypto Labs LLC.
 
