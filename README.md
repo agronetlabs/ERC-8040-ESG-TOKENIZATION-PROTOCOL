@@ -98,8 +98,7 @@ To contribute:
 ## 📬 Contact
 
 - 🌐 [eip.agrocryptolabs.org](https://eip.agrocryptolabs.org)  
-- 🔗 [linktr.ee/agrocrypto](https://linktr.ee/agrocrypto)  
-- 📧 `agrocryptolabs@proton.me`
+- 📧 `agronetlabs@pm.me`
 
 ---
 
@@ -110,7 +109,7 @@ To contribute:
 ---
 
 📄 Usage & Licensing  
-© 2023–2025 AgroCrypto Labs LLC — All Rights Reserved.  
+© 2023–2025 AgroNet Labs LLC — All Rights Reserved.  
 EIP-8040 (ATF-AI: AgroCrypto Trust Framework) is an open technical standard registered within the Ethereum ecosystem for public reference.  
 While the EIP document is public, the institutional implementation, certification layer, audit infrastructure, and brand identity "ATF-AI Verified" are proprietary intellectual property of AgroCrypto Labs LLC.  
 ✅ Free Usage  
@@ -125,9 +124,9 @@ Unauthorized commercial use constitutes intellectual property infringement under
 AgroCrypto Labs LLC reserves all rights to enforce, audit, certify, and license the official implementation and its derivatives.  
 📬 Licensing & Partnerships  
 For partnership or licensing inquiries, contact:  
-📧 contact@agronet.io
+📧 support@agronet.io
 
 ---  
-© 2023–2025 AgroCrypto Labs LLC — All Rights Reserved.
+© 2023–2025 AgroNet Labs LLC — All Rights Reserved.
 
 ---
