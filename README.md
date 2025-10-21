@@ -77,7 +77,7 @@ While the EIP document is public, the institutional implementation, certificatio
 - Use of the EIP-8040 specification for educational or experimental purposes is free.  
 - Any commercial deployment, certification service, API usage, or public representation under the terms "ATF-AI Verified", "EIP-8040 Oracle", or related derivatives requires **explicit written authorization** from AgroCrypto Labs LLC.  
 - Unauthorized commercial use constitutes intellectual property infringement under U.S. and international law.  
-- For partnership or licensing inquiries, contact: `legal@agrocryptolabs.org`
+- For partnership or licensing inquiries, contact: `admin@agronet.io`
 
 ---
 
