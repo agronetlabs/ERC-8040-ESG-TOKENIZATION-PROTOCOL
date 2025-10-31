@@ -14,7 +14,7 @@
 
 # 🌐 ERC-8040-ESG-Tokenization-Protocol
 
-> **Reference Implementation for EIP-8040: AgroCrypto Quantum Governance — ESG Tokenization Protocol**
+> **Reference Implementation for EIP-8040: ESG - Tokenization Protocol**
 
 > ⚠️ **Notice**: The Ethereum EIPs repository has recently [split ERCs and EIPs](https://github.com/ethereum/EIPs/pull/7206). ERCs are now maintained at [github.com/ethereum/ercs](https://github.com/ethereum/ercs). EIP-8040 is an **ERC** (Ethereum Request for Comment), and discussions should reference the official ERC repository.
 
