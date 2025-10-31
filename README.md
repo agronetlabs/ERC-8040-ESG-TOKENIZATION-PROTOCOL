@@ -98,7 +98,7 @@ To contribute:
 ## 📬 Contact
 
 - 🌐 [eip.agrocryptolabs.org](https://eip.agrocryptolabs.org)  
-- 📧 `agronetlabs@pm.me`
+- 📧 `leandro@agronet.io`
 
 ---
 
